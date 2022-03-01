@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <header>
+        <nav id="nav-bar">
+            <div id="nav-bar-head">
+                <img id="header-img" src="trombone.jpg" alt="trombone" width="auto" height="auto">
+                <div id="head">Original Trombones</div>    
+            </div>
+
+            <ul id="nav-bar-links">
+                <li class="nav-link"><a href="#features">Features</a></li>
+                <li class="nav-link"><a href="#How-It-Works">How It Works</a></li>
+                <li class="nav-link"><a href="#pricing">Pricing</a></li>
+            </ul>
+
+      
+            
+
+
+        </nav>
+    </header>
+<div class="not-nav">
+    <form>
+        <link for="email">Handcrafted, home-made masterpieces<link>
+        <input type="email" id="email" name="email" name="email "placeholder="    Enter your email address" required>
+        <button id='button'>Submit</button>
+        
+
+    </form>
+
+    <div class="feature" id="features">
+
+        <div class="feature-logo">
+            <img id="fire" src="fire-icon-flat-vector-22882820.jpg" alt="fire">
+            <img id="car" src="car.png" alt="car">
+            <img id="battery" src="battery.jpg" alt="car">
+        </div>
+
+        <div class="feature-text">
+            <h2>Premium Materials</h2>
+            <p class="first">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            <h2>Fast Shipping</h2>
+            <p class="second">We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+            <h2>Quality Assurance</h2>
+            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of<br>your instrument.</p>
+        </div>
+
+
+    </div>
+
+    <div class="video" id="How-It-Works"> 
+        <iframe width="400px" height="250px" src="https://www.youtube.com/embed/AgHVUK7zQg" allowfullscreen></iframe>
+    </div>
+
+    <div class="button-clicked hidden">
+        <i class="fa fa-times" aria-hidden="true"></i>
+    </div>
+
+    <div class="parent-container">
+        <div class="container">
+
+            <div class="info-container">
+                <h2>BARITONE TROMBONE</h2>
+                <h2 class="price">600$</h2>
+                <p class="text">Lorem ipsum.<br>
+                    Lorem ipsum.<br>
+                    Lorem ipsum dolor.<br>
+                    Lorem ipsum.</p>
+        
+                <input class='open-button' id="select" type="submit" value="select">
+            </div>
+        </div>
+        <div class="container">
+            
+                
+            
+            <div class="info-container">
+                <h2>TENOR TROMBONE</h2>
+                <h2 class="price">400$</h2>
+                <p class="text">Lorem ipsum.<br>
+                    Lorem ipsum.<br>
+                    Lorem ipsum dolor.<br>
+                    Lorem ipsum.</p>
+        
+                <input class='open-button' id="select" type="submit" value="select">
+            </div>
+        </div>
+        <div class="container">
+            
+                
+            
+            <div class="info-container">
+                <h2>ALT TROMBONE</h2>
+                <h2 class="price" id="pricing">200$</h2>
+                <p class="text">Lorem ipsum.<br>
+                    Lorem ipsum.<br>
+                    Lorem ipsum dolor.<br>
+                    Lorem ipsum.</p>
+   
+                <input class='open-button'id="select" type="submit" value="select">
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- payment html below -->
+
+
+
+    <div class='container2 toggle'>
+        <h2 id="total-price"></h2>
+        <div class="first-row">
+            <div class="owner">
+                <h3>owner</h3>
+                <div class="input-field">
+                    <input type="text">
+                </div>
+            </div>
+        
+
+
+        
+            <div class="cvv">
+                <h3>cvv</h3>
+                <div class="input-field">
+                    <input type="password">
+                </div>
+            </div>
+
+        </div>
+
+
+            <div class="second-row">
+                <div class="card-number">
+                    <h3>card number</h3>
+                    <div class="input-field">
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+    
+    
+            
+
+            <div class="third-row">
+               
+                    <h3>date</h3>
+                    <div class="selection">
+                        <div class="date">
+                            <select name='months' id='months'>
+                                <option value='jan'>Jan</option>
+                                <option value='feb'>Feb</option>
+                                <option value='march'>March</option>
+                                <option value='april'>April</option>
+                                <option value='may'>May</option>
+                                <option value='june'>June</option>
+                                <option value='july'>July</option>
+                                <option value='august'>August</option>
+                                <option value='september'>September</option>
+                                <option value='october'>October</option>
+                                <option value='november'>November</option>
+                                <option value='december'>December</option>
+                            </select>
+
+                            <select name='years' id='years'>
+                                <option value='2022'>2022</option>
+                                <option value='2021'>2021</option>
+                                <option value='2020'>2020</option>
+                                <option value='2019'>2019</option>
+                                <option value='2018'>2018</option>
+                            </select>
+
+                        </div>
+                      <!-- 
+                          <div class="cards">
+                            <img src='paypal.png'/>
+                            <img src='visa.png'/>
+                            <img src='masterCard.png'/>
+
+                        </div>
+                    </div>  
+                -->    
+                    
+            </div>
+            <a href=''>Confirm</a>
+               
+
+
+
+    
+
+
+</div>  
+<script src="index.js"></script>
+</body>
+
+</html>
